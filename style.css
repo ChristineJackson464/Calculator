@@ -18,7 +18,6 @@ body {
   box-shadow: 0 10px 30px -5px rgba(209, 206, 217, 0.6);
   border-radius: 12px;
   width: 400px;
-  
 }
 
 /* DISPLAY */
@@ -107,6 +106,34 @@ button:focus {
   color: #eff0ed;
   grid-column: -2;
   grid-row: 2 /span 4;
+}
+
+/* FOOTER */
+.copyright {  
+  color: #1b3172;
+  display: flex;
+  bottom: 0; 
+  left: 0;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  width: 100%;
+}
+
+#logo { 
+  height: 3.5rem;
+}
+
+#span1 {
+  background-color: #75595d;
+  color: #eff0ed;
+  border-radius: 10px;
+}
+
+#span2 {
+  font-weight: 800;
+  color: #75595d;
+  margin: 0 -1px 20px 0;
 }
 
 
